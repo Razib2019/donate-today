@@ -164,3 +164,31 @@ p {
 }
 
 /* Our Donation Plan End Here */
+/* Our Gallery Section Start From Here */
+.our-gallery {
+    width: 1400px;
+    height: 900px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.gallery-images {
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-image {
+    width: 340px;
+    height: 220px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.gallery-image2 {
+    width: 100%;
+    height: 100%;
+}
+
+/* Our Gallery Section End Here */
