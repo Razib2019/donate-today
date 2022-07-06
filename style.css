@@ -16,6 +16,13 @@ h2 {
     color: gray;
 }
 
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+}
+
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
@@ -103,7 +110,7 @@ p {
 
 .donate-today input {
     margin-top: 50px;
-    padding: 10px 350px;
+    padding: 10px 250px;
     border: 2px solid gray;
     border-radius: 40px;
     font-size: 20px;
@@ -111,3 +118,49 @@ p {
 }
 
 /* Donate Today Section End Here  */
+
+/* Our Donation Plan Start Here */
+.Donation-plan {
+    width: 1400px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.donation-plan-text {
+    text-align: center;
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-card {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.plan-card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(99, 99, 99);
+}
+
+.plan-card1-bg {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.plan-card2-bg {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.plan-card3-bg {
+    background: #FFF4D6;
+}
+
+/* Our Donation Plan End Here */
