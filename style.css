@@ -4,18 +4,23 @@ body {
 
 h1 {
     font-family: 'Inter', sans-serif;
-    font-size: 65px;
-    font-weight: 700;
-    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: gray;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 800;
     color: gray;
-    text-align: center;
-    margin-bottom: 100px;
 }
 
 .link-button {
@@ -52,17 +57,57 @@ p {
 .text-area h1 {
     font-family: 'Inter', sans-serif;
     font-size: 65px;
-    font-weight: 700;
+    font-weight: 900;
     color: white;
 }
 
 .text-area p {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 500;
     color: white;
     text-align: center;
     margin-bottom: 100px;
 }
 
 /* top banner Or Main Header section End */
+
+/* Donate Today Section Start From Here */
+.donate-today {
+    width: 950px;
+    height: 650px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 450px;
+}
+
+.donate-money {
+    display: flex;
+    justify-content: space-around;
+}
+
+.money-card {
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+.money-card-unique {
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 3px solid tomato;
+    background-color: rgba(255, 99, 71, 0.137);
+}
+
+.donate-today input {
+    margin-top: 50px;
+    padding: 10px 350px;
+    border: 2px solid gray;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+/* Donate Today Section End Here  */
